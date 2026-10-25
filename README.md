@@ -55,6 +55,20 @@ download. The other five had been reached independently and uploaded there short
 Farahani on 22 October, C(71,16,2) and C(76,14,2) by Hossein Farahani on 23 October, and C(66,12,2) and C(75,17,2) by
 Franco Atzeni on 24 October.
 
+## (v,k,t,m) coverings
+
+A (v,k,t,m) covering, with m > t, asks less: every set of m points must share at least t points with some block.
+The Covering Repository (coveringrepository.com) keeps a table of these too. These two each use one block fewer than
+the value it listed on 25 October 2026, and both were uploaded there that day:
+
+| Entry | Blocks | Previous best |
+|---|---|---|
+| C(25,9,8,19) | 10 | 11 |
+| C(35,12,7,18) | 7 | 8 |
+
+C(25,9,8,19) came from a bit-parallel local search. C(35,12,7,18) is a union: one block holding points 1 to 12,
+together with a (23,12,7,12) covering with 6 blocks on points 13 to 35 that the same search found.
+
 ## Check them yourself
 
 ```sh
@@ -62,7 +76,8 @@ python3 verify.py
 ```
 
 The script uses only the Python standard library. For each file it checks the block count, that every block has k
-distinct points from 1 to v, and that every one of the C(v,t) t-subsets is covered. Each covering was also checked by
+distinct points from 1 to v, and that every one of the C(v,t) t-subsets is covered. For a (v,k,t,m) covering it
+searches exactly for an m-subset that meets every block in fewer than t points and confirms there is none. Each covering was also checked by
 two other independent checkers before release.
 
 ## How they were found
@@ -74,7 +89,7 @@ random blocks. The engine is open source: https://github.com/arhancanli/quantava
 
 ## Files
 
-- `coverings/C_v_k_t_b.txt`: one block per line, points numbered from 1.
+- `coverings/C_v_k_t_b.txt` and `coverings/C_v_k_t_m_b.txt`: one block per line, points numbered from 1.
 - `records.json`: the table above in machine-readable form.
 - `verify.py`: the checker.
 
