@@ -58,16 +58,22 @@ Franco Atzeni on 24 October.
 ## (v,k,t,m) coverings
 
 A (v,k,t,m) covering, with m > t, asks less: every set of m points must share at least t points with some block.
-The Covering Repository (coveringrepository.com) keeps a table of these too. These two each use one block fewer than
-the value it listed on 25 October 2026, and both were uploaded there that day:
+The Covering Repository (coveringrepository.com) keeps a table of these too. Each of these uses one block fewer than
+the value it listed when we uploaded it there (25 and 26 October 2026):
 
 | Entry | Blocks | Previous best |
 |---|---|---|
 | C(25,9,8,19) | 10 | 11 |
 | C(35,12,7,18) | 7 | 8 |
+| C(25,15,13,20) | 7 | 8 |
+| C(27,15,3,4) | 5 | 6 |
+| C(39,13,3,5) | 12 | 13 |
+| C(42,15,3,6) | 6 | 7 |
+| C(57,15,3,8) | 7 | 8 |
 
-C(25,9,8,19) came from a bit-parallel local search. C(35,12,7,18) is a union: one block holding points 1 to 12,
-together with a (23,12,7,12) covering with 6 blocks on points 13 to 35 that the same search found.
+C(25,9,8,19), C(25,15,13,20), C(27,15,3,4) and C(39,13,3,5) came from a bit-parallel local search. The other three
+are unions with one block holding the first k points: C(35,12,7,18) adds a (23,12,7,12) covering with 6 blocks that
+the same search found, C(42,15,3,6) adds our C(27,15,3,4), and C(57,15,3,8) adds our C(42,15,3,6).
 
 ## Check them yourself
 
