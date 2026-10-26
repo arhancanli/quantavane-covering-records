@@ -70,8 +70,9 @@ the value it listed when we uploaded it there (25 and 26 October 2026):
 | C(39,13,3,5) | 12 | 13 |
 | C(42,15,3,6) | 6 | 7 |
 | C(57,15,3,8) | 7 | 8 |
+| C(22,13,5,6) | 16 | 17 |
 
-C(25,9,8,19), C(25,15,13,20), C(27,15,3,4) and C(39,13,3,5) came from a bit-parallel local search. The other three
+C(25,9,8,19), C(25,15,13,20), C(27,15,3,4), C(39,13,3,5) and C(22,13,5,6) came from a bit-parallel local search. The other three
 are unions with one block holding the first k points: C(35,12,7,18) adds a (23,12,7,12) covering with 6 blocks that
 the same search found, C(42,15,3,6) adds our C(27,15,3,4), and C(57,15,3,8) adds our C(42,15,3,6).
 
