@@ -73,6 +73,7 @@ the value it listed when we uploaded it there (25 and 26 October 2026):
 | C(22,13,5,6) | 16 | 17 |
 | C(22,9,8,16) | 16 | 17 |
 | C(25,10,3,5) | 7 | 8 |
+| C(33,11,3,5) | 12 | 13 |
 
 C(25,9,8,19), C(25,15,13,20), C(27,15,3,4), C(39,13,3,5), C(22,13,5,6) and C(22,9,8,16) came from a bit-parallel local search. The other three
 are unions with one block holding the first k points: C(35,12,7,18) adds a (23,12,7,12) covering with 6 blocks that
