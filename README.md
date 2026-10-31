@@ -81,6 +81,46 @@ the same search found, C(42,15,3,6) adds our C(27,15,3,4), and C(57,15,3,8) adds
 Taking complements of the blocks turns a (22,13,5,6) covering into a (22,9,8,16) covering with the same number of
 blocks, and our C(25,10,3,5) is the complement of our C(25,15,13,20).
 
+### Uploaded 31 October 2026
+
+Each of these is below the value the Covering Repository listed for it on 31 October 2026 (checked on the live site
+that day, before and after the upload):
+
+| Entry | Blocks | Previous best |
+|---|---|---|
+| C(37,8,2,3) | 15 | 16 |
+| C(35,14,3,5) | 7 | 8 |
+| C(49,14,3,7) | 8 | 9 |
+| C(53,14,3,7) | 11 | 12 |
+| C(67,14,3,9) | 12 | 13 |
+| C(17,7,4,6) | 17 | 18 |
+| C(25,11,5,9) | 7 | 9 |
+| C(47,11,5,16) | 14 | 15 |
+| C(50,11,5,17) | 14 | 16 |
+| C(23,11,6,10) | 9 | 11 |
+| C(27,11,6,12) | 9 | 10 |
+| C(34,11,6,15) | 10 | 11 |
+| C(38,11,6,16) | 15 | 17 |
+| C(40,11,6,17) | 15 | 16 |
+| C(41,11,6,17) | 18 | 19 |
+| C(42,11,6,18) | 14 | 15 |
+| C(46,11,6,19) | 18 | 21 |
+| C(29,13,7,14) | 5 | 6 |
+| C(31,14,7,14) | 5 | 6 |
+| C(33,15,7,14) | 5 | 6 |
+| C(17,10,8,11) | 17 | 18 |
+| C(23,12,8,13) | 9 | 11 |
+| C(31,10,8,19) | 37 | 38 |
+| C(31,14,8,16) | 5 | 6 |
+| C(33,15,8,16) | 5 | 6 |
+| C(28,11,9,20) | 10 | 11 |
+| C(25,14,10,16) | 7 | 9 |
+
+12 came from the same bit-parallel local search, some run on a growing list of m-subsets: C(37,8,2,3), C(35,14,3,5), C(17,7,4,6), C(23,11,6,10), C(27,11,6,12), C(29,13,7,14), C(31,14,7,14), C(33,15,7,14), C(31,14,8,16), C(33,15,8,16), C(28,11,9,20) and C(25,14,10,16).
+3 are their complements: C(25,11,5,9) from C(25,14,10,16), C(17,10,8,11) from C(17,7,4,6) and C(23,12,8,13) from C(23,11,6,10).
+The other 12 are unions of two coverings on disjoint point sets (at least one of them ours, the other from the
+repository or a single block): C(49,14,3,7) = C(14,14,3,3) + C(35,14,3,5), C(53,14,3,7) = C(18,14,3,3) + C(35,14,3,5), C(67,14,3,9) = C(32,14,3,5) + C(35,14,3,5), C(47,11,5,16) = C(22,11,5,8) + C(25,11,5,9), C(50,11,5,17) = C(25,11,5,9) + C(25,11,5,9), C(34,11,6,15) = C(11,11,6,6) + C(23,11,6,10), C(38,11,6,16) = C(15,11,6,7) + C(23,11,6,10), C(40,11,6,17) = C(17,11,6,8) + C(23,11,6,10), C(41,11,6,17) = C(18,11,6,8) + C(23,11,6,10), C(42,11,6,18) = C(19,11,6,9) + C(23,11,6,10), C(46,11,6,19) = C(23,11,6,10) + C(23,11,6,10) and C(31,10,8,19) = C(14,10,8,9) + C(17,10,8,11).
+
 ## Check them yourself
 
 ```sh
