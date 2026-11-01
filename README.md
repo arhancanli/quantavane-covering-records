@@ -121,6 +121,27 @@ that day, before and after the upload):
 The other 12 are unions of two coverings on disjoint point sets (at least one of them ours, the other from the
 repository or a single block): C(49,14,3,7) = C(14,14,3,3) + C(35,14,3,5), C(53,14,3,7) = C(18,14,3,3) + C(35,14,3,5), C(67,14,3,9) = C(32,14,3,5) + C(35,14,3,5), C(47,11,5,16) = C(22,11,5,8) + C(25,11,5,9), C(50,11,5,17) = C(25,11,5,9) + C(25,11,5,9), C(34,11,6,15) = C(11,11,6,6) + C(23,11,6,10), C(38,11,6,16) = C(15,11,6,7) + C(23,11,6,10), C(40,11,6,17) = C(17,11,6,8) + C(23,11,6,10), C(41,11,6,17) = C(18,11,6,8) + C(23,11,6,10), C(42,11,6,18) = C(19,11,6,9) + C(23,11,6,10), C(46,11,6,19) = C(23,11,6,10) + C(23,11,6,10) and C(31,10,8,19) = C(14,10,8,9) + C(17,10,8,11).
 
+### Uploaded 1 November 2026
+
+Each of these is below the value the Covering Repository listed for it on 1 November 2026; all 11 were accepted
+as new records by the Validator and appear on the site's latest improvements, credited to Arhan Canli (Quantavane):
+
+| Entry | Blocks | Previous best |
+|---|---|---|
+| C(66,11,2,3) | 24 | 25 |
+| C(68,13,2,3) | 19 | 20 |
+| C(70,13,2,3) | 20 | 21 |
+| C(71,14,2,3) | 18 | 19 |
+| C(75,13,2,3) | 23 | 24 |
+| C(77,13,2,3) | 24 | 25 |
+| C(79,13,2,3) | 25 | 26 |
+| C(81,13,2,3) | 26 | 27 |
+| C(81,14,2,3) | 23 | 24 |
+| C(83,13,2,3) | 27 | 28 |
+| C(83,14,2,3) | 24 | 25 |
+
+All 11 came from a direct search over all m-subsets (engine/native/lotto_bits.c).
+
 ## Check them yourself
 
 ```sh
