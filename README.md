@@ -38,6 +38,8 @@ These coverings each use one block fewer than the best known before them:
 | C(72,23,3) | 51 | 52 |
 | C(28,17,4) | 20 | 21 |
 | C(40,23,4) | 24 | 25 |
+| C(85,13,2) | 53 | 54 |
+| C(99,16,2) | 48 | 49 |
 
 "Previous best" is the value in the La Jolla Covering Repository's final data (Daniel M. Gordon, CC BY 4.0,
 doi:10.5281/zenodo.19735294). Fifteen of the previous values came from general constructions. Thirteen came from
@@ -141,6 +143,42 @@ as new records by the Validator and appear on the site's latest improvements, cr
 | C(83,14,2,3) | 24 | 25 |
 
 All 11 came from a direct search over all m-subsets (engine/native/lotto_bits.c).
+
+### Uploaded 4 November 2026
+
+Each of these is below the value the Covering Repository listed for it on 4 November 2026 (08:52 export); all 27 were accepted as new records by the Validator and are listed at these values in the 09:55 export:
+
+| Entry | Blocks | Previous best |
+|---|---|---|
+| C(21,13,12,17) | 16 | 17 |
+| C(21,15,10,12) | 16 | 17 |
+| C(21,6,4,9) | 16 | 17 |
+| C(21,8,3,4) | 16 | 17 |
+| C(22,15,10,13) | 9 | 10 |
+| C(22,7,4,9) | 9 | 10 |
+| C(29,7,4,12) | 10 | 11 |
+| C(33,7,4,13) | 14 | 15 |
+| C(35,7,4,13) | 19 | 20 |
+| C(36,7,4,15) | 11 | 12 |
+| C(37,7,4,14) | 18 | 19 |
+| C(40,7,4,16) | 15 | 16 |
+| C(42,6,4,17) | 32 | 33 |
+| C(43,7,4,18) | 12 | 13 |
+| C(44,7,4,17) | 18 | 19 |
+| C(45,7,2,3) | 28 | 29 |
+| C(47,7,2,3) | 30 | 31 |
+| C(47,8,3,8) | 29 | 30 |
+| C(56,13,2,3) | 13 | 14 |
+| C(57,10,2,3) | 22 | 23 |
+| C(58,11,2,3) | 19 | 20 |
+| C(75,13,2,4) | 16 | 17 |
+| C(80,11,2,3) | 34 | 35 |
+| C(81,11,2,3) | 35 | 36 |
+| C(82,13,2,4) | 19 | 20 |
+| C(83,11,2,4) | 26 | 27 |
+| C(85,13,2,4) | 20 | 21 |
+
+Of these and the two (v,k,t) coverings C(85,13,2) and C(99,16,2) above, 10 came from a direct search over all m-subsets (engine/native/lotto_bits.c), 14 are unions of two coverings on disjoint point sets (at least one of them ours, the other from the repository or a single block), 3 are complements of our coverings, and the two (v,k,t) coverings came from the engine's native covering search.
 
 ## Check them yourself
 
