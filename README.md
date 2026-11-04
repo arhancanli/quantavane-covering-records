@@ -181,6 +181,14 @@ Each of these is below the value the Covering Repository listed for it on 4 Nove
 
 Of these and the two (v,k,t) coverings C(85,13,2) and C(99,16,2) above, 10 came from a direct search over all m-subsets (engine/native/lotto_bits.c), 14 are unions of two coverings on disjoint point sets (at least one of them ours, the other from the repository or a single block), 3 are complements of our coverings, and the two (v,k,t) coverings came from the engine's native covering search.
 
+### Uploaded 5 November 2026
+
+Each of these is below the value the Covering Repository listed for it on 5 November 2026; all were accepted as new records by the Validator and are listed at these values:
+
+| Entry | Blocks | Previous best |
+|---|---|---|
+| C(77,11,2,3) | 32 | 33 |
+
 ## Check them yourself
 
 ```sh
