@@ -41,6 +41,7 @@ These coverings each use one block fewer than the best known before them:
 | C(85,13,2) | 53 | 54 |
 | C(99,16,2) | 48 | 49 |
 | C(77,13,2) | 43 | 44 |
+| C(35,10,3) | 76 | 77 |
 
 "Previous best" is the value in the La Jolla Covering Repository's final data (Daniel M. Gordon, CC BY 4.0,
 doi:10.5281/zenodo.19735294). Fifteen of the previous values came from general constructions. Thirteen came from
