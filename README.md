@@ -219,6 +219,8 @@ Each of these is below the value the Covering Repository listed for it on 6 Nove
 | C(34,9,5,11) | 55 | 56 |
 | C(36,9,5,11) | 68 | 70 |
 | C(44,13,3,5) | 17 | 18 |
+| C(62,7,2,4) | 35 | 36 |
+| C(84,7,2,5) | 48 | 49 |
 
 ## Check them yourself
 
