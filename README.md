@@ -222,6 +222,17 @@ Each of these is below the value the Covering Repository listed for it on 6 Nove
 | C(62,7,2,4) | 35 | 36 |
 | C(84,7,2,5) | 48 | 49 |
 
+### Uploaded 7 November 2026
+
+Each of these is below the value the Covering Repository listed for it on 7 November 2026; all were accepted as new records by the Validator and are listed at these values:
+
+| Entry | Blocks | Previous best |
+|---|---|---|
+| C(29,8,3,5) | 22 | 23 |
+| C(45,8,3,7) | 36 | 37 |
+| C(55,8,3,9) | 35 | 36 |
+| C(61,8,3,9) | 50 | 51 |
+
 ## Check them yourself
 
 ```sh
