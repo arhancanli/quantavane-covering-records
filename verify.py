@@ -4,7 +4,8 @@ A (v,k,t) covering design is a set of blocks, each k distinct points from 1..v, 
 {1..v} lies inside at least one block. A (v,k,t,m) covering, with m > t, needs only that every m-element subset meets
 some block in at least t points. For each file this script checks the block count, the size and range of every block,
 and coverage: for (v,k,t) it lists all C(v,t) t-subsets; for (v,k,t,m) it searches exactly for an m-subset that meets
-every block in at most t-1 points and reports that none exists. Run: python3 verify.py"""
+every block in at most t-1 points and reports that none exists. Run: python3 verify.py (every covering), or
+python3 verify.py C_41_9_2_27.txt ... (only the files named)."""
 import itertools
 import json
 import math
@@ -71,7 +72,13 @@ def main():
     ok_all = True
     with open(os.path.join(HERE, "records.json")) as f:
         records = json.load(f)
+    only = {os.path.basename(a) for a in sys.argv[1:]}
+    unknown = only - {r["file"] for r in records}
+    if unknown:
+        sys.exit(f"not in records.json: {', '.join(sorted(unknown))}")
     for r in records:
+        if only and r["file"] not in only:
+            continue
         with open(os.path.join(HERE, "coverings", r["file"])) as f:
             blocks = [[int(x) for x in line.split()] for line in f if line.strip()]
         m = r.get("m", r["t"])

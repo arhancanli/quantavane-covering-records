@@ -244,7 +244,8 @@ Each of these is below the value the Covering Repository listed for it on 8 Nove
 ## Check them yourself
 
 ```sh
-python3 verify.py
+python3 verify.py C_41_9_2_27.txt C_17_7_4_6_17.txt   # only the files named: a fraction of a second here
+python3 verify.py                                     # every covering: about 20 minutes of CPU on a laptop
 ```
 
 The script uses only the Python standard library. For each file it checks the block count, that every block has k
@@ -264,6 +265,23 @@ random blocks. The engine is open source: https://github.com/arhancanli/quantava
 - `coverings/C_v_k_t_b.txt` and `coverings/C_v_k_t_m_b.txt`: one block per line, points numbered from 1.
 - `records.json`: the table above in machine-readable form.
 - `verify.py`: the checker.
+
+## How to cite
+
+Cite this repository for the coverings, and the Covering Repository (coveringrepository.com), the table that
+lists them. For one covering, give its entry as well, for example C(41,9,2) ≤ 27.
+
+```bibtex
+@misc{quantavane-covering-records,
+  author       = {Canli, Arhan},
+  title        = {Covering design records from Quantavane},
+  year         = {2026},
+  howpublished = {\url{https://github.com/arhancanli/quantavane-covering-records}},
+  note         = {Quantavane; CC BY 4.0}
+}
+```
+
+[CITATION.cff](CITATION.cff) gives the same reference for GitHub's "Cite this repository" button.
 
 ## Licence
 

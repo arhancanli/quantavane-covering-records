@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use these results, please cite them as below, and credit the table that lists them."
+type: dataset
+title: "Covering design records from Quantavane"
+abstract: "Covering designs C(v,k,t) and C(v,k,t,m), each with fewer blocks than the best known before it when uploaded to the Covering Repository, with a standalone Python checker."
+authors:
+  - family-names: Canli
+    given-names: Arhan
+    affiliation: Quantavane
+    email: arhan@quantavane.com
+license: CC-BY-4.0
+url: "https://quantavane.com"
+repository-code: "https://github.com/arhancanli/quantavane-covering-records"
+keywords:
+  - covering designs
+  - combinatorial designs
+  - exact verification
